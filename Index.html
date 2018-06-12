@@ -2,6 +2,9 @@
     <head>
         <title>Test stranica za ucenje</title>
         <style>
+            body {
+                background-color: cadetblue; 
+            }
             h1 {
                 background-color: lavenderblush;
                 font-size: 72px;
@@ -9,14 +12,18 @@
                 text-align: center;
                 border: thick double darkgray;
                 outline: 5px ridge rosybrown;
-                outline-offset: 3px;
                 padding: 10px;
                 margin: 5px;
-
+                width: 80%;
+            }
+            .heading-holder {
+                display: flex;
+                justify-content: center;
             }
             img {
                 height:60%;
                 box-shadow: 10px 10px 5px 0px gray;
+                margin-bottom: 20px;
 
             }
             h2 {
@@ -26,6 +33,7 @@
                 text-align: center;
                 border: solid darkgray;
                 padding: 5px;
+                margin: 2px;
 
             }
             .image-holder {
@@ -33,48 +41,53 @@
               justify-content: center;
 
             }
-            table {
-                font-size: 30px;
-                margin: 10px;
-            }
-            td {
+            .info {
+                font-size: 25px;
+                margin: 5px;
                 border: 3px solid darkgrey;
                 border-radius: 0.5em;
-                padding: 10px;
                 background-color: lavender;
+                width: 30%;
             }
-            .table {
+            .info-holder {
                 display: flex;
                 justify-content: center;
             }
             .page-body {
-                outline: 5px ridge rosybrown;   
-                outline-offset: 3px;
+                outline: 5px ridge rosybrown;  
                 background: lavenderblush;
                 padding-top: 20px;
                 margin: 5px;
+                width: 82%;
 
+            }
+            .page-body-holder {
+                display: flex;
+                justify-content: center;
             }
         </style>
     </head>
     <body>
-        <h1 class="main-heading">Konjički klub Debora</h1>
-        <div class="table">
-        <table>
-            <tbody>
-                <tr>
-                    <td><a href="about-me.html">O meni</a></td>
-                    <td><a href="riding-school.html">Škola jahanja</a></td>
-                    <td><a href="https://hr.wikipedia.org/wiki/Konji" target="_blank">Više o konjima</a></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="heading-holder">
+            <h1 class="main-heading">Konjički klub Debora</h1>
         </div>
-        <div class="page-body">
-            <div class="image-holder">
-                <img src="images/onhorse.jpg">
+        <div class=info-holder>
+            <div class="info">
+                <ul>
+                    <li><a href="about-me.html">O meni</a></li>
+                    <li><a href="riding-school.html">Škola jahanja</a></li>
+                    <li><a href="https://hr.wikipedia.org/wiki/Konji" target="_blank">Više o konjima</a></li>
+                </ul>
             </div>
-            <h2>Mi volimo konje!</h2>
+        </div>
+        <div class="page-body-holder">
+            <div class="page-body">
+                <div class="image-holder">
+                    <img src="images/onhorse.jpg">
+                </div>
+                <h2>Mi volimo konje!</h2>
+            </div>
+        </div>
         </div>
 
         
