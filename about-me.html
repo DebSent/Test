@@ -2,12 +2,20 @@
     <head>
         <title>O meni</title>
         <style>
+            body {
+                background-color: cadetblue;
+            }
             h1 {
                 font-size:50px;
                 background-color: lavenderblush;
                 border: thick double darkgray;
                 padding: 10px;
 
+            }
+            .page-body {
+                border: thick double darkgray;
+                padding: 10px;
+                background-color: lavenderblush;
             }
             .about-me {
                 font-size: 25px;
@@ -24,18 +32,19 @@
     </head>
     <body>
         <h1>O meni</h1>
-        <div class="about-me">
-            <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
-            <p>Onak, stvarno super.</p>
-            <p>Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
+        <div class="page-body">
+            <div class="about-me">
+                <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
+                <p>Onak, stvarno super.</p>
+                <p>Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
+            </div>
+            <div class="image-holder">
+                <figure>
+                    <img src="images/picofmeriding.jpg" height="35%">
+                    <figcaption><em>Slika di jašem</em></figcaption>
+                </figure>
+            </div>  
+            <a class="link-for-back" href="Index.html">Nazad</a>
         </div>
-        <div class="image-holder">
-            <figure>
-                <img src="images/picofmeriding.jpg" height="35%">
-                <figcaption><em>Slika di jašem</em></figcaption>
-            </figure>
-        </div>  
-        <a class="link-for-back" href="Index.html">Nazad</a>
-        
     </body>  
 </html>
