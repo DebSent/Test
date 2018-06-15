@@ -11,12 +11,23 @@
                 background-color: lavenderblush;
                 border: thick double darkgray;
                 padding: 10px;
-
+                width: 70%;
+                text-align: center;
+            }
+            .heading-holder {
+                display: flex;
+                justify-content: center;
             }
             .page-body {
                 border: thick double darkgray;
                 padding: 10px;
                 background-color: lavenderblush;
+                width: 70%;
+            }
+            .page-body-holder {
+                display: flex;
+                justify-content: center;
+
             }
             .about-me {
                 font-size: 25px;
@@ -32,7 +43,10 @@
         </style>
     </head>
     <body>
-        <h1>O meni</h1>
+        <div class="heading-holder">
+            <h1 class="main-heading">O meni</h1>
+        </div>
+        <div class="page-body-holder">
         <div class="page-body">
             <div class="about-me">
                 <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
@@ -46,6 +60,7 @@
                 </figure>
             </div>  
             <a class="link-for-back" href="Index.html">Nazad</a>
+        </div>
         </div>
     </body>  
 </html>
