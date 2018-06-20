@@ -8,7 +8,7 @@
                 background-color: cadetblue;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
-            h1 {
+            /*h1 {
                 text-align: center;
                 font-size:50px;
                 background-color: lavenderblush;
@@ -30,7 +30,55 @@
             .page-body-holder {
                 display: flex;
                 justify-content: center;
+            }*/
+
+            h1 {
+                background-color: lavenderblush;
+                font-size: 72px;
+                color: rosybrown;
+                text-align: center;
+                border: thick double darkgray;
+                outline: 5px ridge rosybrown;
+                padding: 10px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                width: 70%;
+                text-shadow: 5px 5px lightgrey;
             }
+            .heading-holder {
+                display: flex;
+                justify-content: center;
+            }
+            .info {
+                font-size: 25px;
+                margin-bottom: 10px;
+                border: 5px solid lightgray;
+                background-color: lavender;
+                width: 100%;
+                height: 25%;
+                background-image: url("images/tangledmaximus.jpg");
+            }
+            .info-holder {
+                display: flex;
+                justify-content: center;
+            }
+            .page-body {
+                outline: 5px ridge rosybrown;
+                background: lavenderblush;
+                margin: 5px;
+                width: 70%;
+                border: thick double darkgray;
+                padding: 10px;
+
+            }
+            .page-body-holder {
+                display: flex;
+                justify-content: center;
+            }
+            li {
+                line-height: 2;
+            }
+
             p {
                 text-align: center;
                 font-size: 30px;
@@ -58,21 +106,31 @@
         </style>
     </head>
     <body>
-        <div class="header-holder" >
-            <h1>Škola jahanja</h1>
+        <div class="heading-holder">
+            <h1 class="main-heading">Konjički klub Debora</h1>
         </div>
-        <div class="page-body-holder">
-            <div class="page-body">
-                <p>
-                    Naučite jahati u konjičkom klubu <span class="debora"><strong>Debora</strong></span>, bit će vam super!
-                </p>
-                <div class="image-holder">
-                    <img src="images/ridingschool.jpg">
-                </div>
-                <div class="link-for-back">
-                    <a href="Index.html">Nazad</a>
-                </div>
-            </div> 
-        </div>
+            <div class="page-body-holder">
+                <div class="page-body">
+                    <div class=info-holder>
+                        <div class="info">
+                            <ul>
+                                <li><a href="about-me.html">O meni</a></li>
+                                <li>Škola jahanja</li>
+                                <li><a href="https://hr.wikipedia.org/wiki/Konji" title="Wikipedia stranica o konjima" target="_blank">Više o konjima</a></li>
+                                <li><a href="contact.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        Naučite jahati u konjičkom klubu <span class="debora"><strong>Debora</strong></span>, bit će vam super!
+                    </p>
+                    <div class="image-holder">
+                        <img src="images/ridingschool.jpg">
+                    </div>
+                    <div class="link-for-back">
+                        <a href="Index.html">Nazad</a>
+                    </div>
+                </div> 
+            </div>
     </body>
 </html>
