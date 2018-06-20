@@ -27,27 +27,6 @@
                 display: flex;
                 justify-content: center;
             }
-            img {
-                height: 80%;
-                /*box-shadow: 10px 10px 5px 0px lightgray;*/
-                margin-bottom: 10px;
-                margin-top: 0px;
-                border: 10px solid lightgray;
-            }
-            h2 {
-                background-color: rosybrown;
-                font-style: italic;
-                font-size: 36px;
-                text-align: center;
-                border: solid darkgray;
-                padding: 5px;
-                margin: 2px;
-            }
-            .image-holder {
-              display: flex;
-              justify-content: center;
-
-            }
             .info {
                 font-size: 25px;
                 margin-bottom: 10px;
@@ -80,6 +59,19 @@
             a:hover {
                 color: rosybrown;
             }
+            .contact {
+                font-size: 25px;
+                text-align: center;
+            }
+            .link-for-back {
+                font-size: 30px;
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+            .link-holder {
+                display: flex;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
@@ -88,20 +80,23 @@
         </div>
         <div class="page-body-holder">
             <div class="page-body">
-                 <div class=info-holder>
+                <div class=info-holder>
                     <div class="info">
                         <ul>
                             <li><a href="about-me.html">O meni</a></li>
                             <li><a href="riding-school.html">Škola jahanja</a></li>
                             <li><a href="https://hr.wikipedia.org/wiki/Konji" title="Wikipedia stranica o konjima" target="_blank">Više o konjima</a></li>
-                            <li><a href="contact.html">Kontakt</a></li>
+                            <li>Kontakt</li>
                         </ul>
                     </div>
                 </div>
-                <div class="image-holder">
-                    <img src="images/horsey.jpg">
+                <div class="contact">
+                    <p>Broj telefona: +38591 753 7692</p>
+                    <p>Mail: <a href="mailto:sentijad@gmail.com">sentijad@gmail.com</a></p>
                 </div>
-                <h2>Mi volimo konje!</h2>
+                <div class="link-holder">  
+                    <a class="link-for-back" href="Index.html">Nazad</a>
+                </div>
             </div>
         </div>
 
