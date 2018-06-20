@@ -9,6 +9,26 @@
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
             h1 {
+                background-color: lavenderblush;
+                font-size: 72px;
+                color: rosybrown;
+                text-align: center;
+                border: thick double darkgray;
+                outline: 5px ridge rosybrown;
+                padding: 10px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                width: 70%;
+                text-shadow: 5px 5px lightgrey;
+            }
+            .heading-holder {
+                display: flex;
+                justify-content: center;
+
+
+            
+            }
+            /*h2 {
                 font-size:50px;
                 background-color: lavenderblush;
                 border: thick double darkgray;
@@ -16,25 +36,40 @@
                 width: 70%;
                 text-align: center;
                 text-shadow: 5px 5px lightgrey;
+            }*/
+            .info {
+                font-size: 25px;
+                margin-bottom: 10px;
+                border: 5px solid lightgray;
+                background-color: lavender;
+                width: 100%;
+                height: 25%;
+                background-image: url("images/tangledmaximus.jpg");
             }
-            .heading-holder {
+            .info-holder {
                 display: flex;
                 justify-content: center;
             }
             .page-body {
+                outline: 5px ridge rosybrown;
+                background: lavenderblush;
+                margin: 5px;
+                width: 70%;
                 border: thick double darkgray;
                 padding: 10px;
-                background-color: lavenderblush;
-                width: 70%;
+
             }
             .page-body-holder {
                 display: flex;
                 justify-content: center;
-
+            }
+            li {
+                line-height: 2;
             }
             .about-me {
                 font-size: 25px;
-                text-indent:1.5em;
+                text-indent:25px;
+                margin-top: 20px;
             }
             img {
                 box-shadow: 10px 10px 5px 0px gray;
@@ -50,8 +85,8 @@
             }
             .link-for-back {
                 font-size: 30px;
-                margin-top: 1em;
-                margin-bottom: 1em;
+                margin-top: 50px;
+                margin-bottom: 300px;
             }
             .link-holder {
                 display: flex;
@@ -64,14 +99,24 @@
     </head>
     <body>
         <div class="heading-holder">
-            <h1 class="main-heading">O meni</h1>
+            <h1 class="main-heading">Konjički klub Debora</h1>
         </div>
         <div class="page-body-holder">
             <div class="page-body">
+                <div class=info-holder>
+                    <div class="info">
+                        <ul>
+                            <li>O meni</li>
+                            <li><a href="riding-school.html">Škola jahanja</a></li>
+                            <li><a href="https://hr.wikipedia.org/wiki/Konji" title="Wikipedia stranica o konjima" target="_blank">Više o konjima</a></li>
+                            <li><a href="contact.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="about-me">
-                    <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
-                    <p>Onak, stvarno super.</p>
-                    <p>Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
+                        <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
+                        <p>Onak, stvarno super.</p>
+                        <p>Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
                 </div>
                 <div class="image-holder">
                     <figure>
@@ -84,5 +129,6 @@
                 </div>
             </div>
         </div>
+                
     </body>  
 </html>
