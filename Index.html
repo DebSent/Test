@@ -50,7 +50,6 @@
 
             }
             .info {
-                font-size: 25px;
                 margin-bottom: 10px;
                 padding-bottom: 10px;
                 background-color: white;
@@ -78,11 +77,25 @@
                 display: flex;
                 justify-content: center;
             }
-            li {
-                line-height: 1.6;
+            ul {
+                list-style-type: none;
+                background-color: rosybrown;
+                width: 200px;
+                margin: 0;
+                padding: 0;
             }
-            a:hover {
+            li a {
+                font-size: 25px;
+                line-height: 1.6;
+                text-decoration: none;
+                display: block;
+                color: whitesmoke;
+                padding-left: 10px;
+                
+            }
+            li a:hover {
                 color: rosybrown;
+                background-color: whitesmoke;
             }
             footer {
                 text-align: center;
@@ -102,7 +115,7 @@
             <div class="page-body">
                  <div class=info-holder>
                     <div class="info">
-                        <ul>
+                        <ul class="navigation">
                             <li><a href="Index.html">Naslovna</a></li>
                             <li><a href="about-me.html">O meni</a></li>
                             <li><a href="riding-school.html">Škola jahanja</a></li>
