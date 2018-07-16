@@ -56,11 +56,27 @@
                 display: flex;
                 justify-content: center;
             }
-            li {
-                line-height: 1.6;
+            ul {
+                list-style-type: none;
+                background-color: rosybrown;
+                width: 200px;
+                margin: 0;
+                padding: 0;
             }
-            a:hover {
+            li a {
+                font-size: 25px;
+                text-decoration: none;
+                display: block;
+                color: whitesmoke;
+                padding: 5px;  
+            }
+            li a:hover {
                 color: rosybrown;
+                background-color: whitesmoke;
+            }
+            li a.active {
+                color: rosybrown;
+                background-color: whitesmoke;
             }
             .contact {
                 font-size: 25px;
@@ -99,7 +115,7 @@
                             <li><a href="about-me.html">O meni</a></li>
                             <li><a href="riding-school.html">Škola jahanja</a></li>
                             <li><a href="https://hr.wikipedia.org/wiki/Konji" title="Wikipedia stranica o konjima" target="_blank">Više o konjima</a></li>
-                            <li>Kontakt</li>
+                            <li><a class="active" href="contact.html">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
