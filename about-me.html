@@ -58,19 +58,23 @@
                 width: 100%;
                 background-color: rgba(56, 48, 48, 0.3);
                 border-radius: 20px;
-                display: flex;
-                justify-content: left;
                 
             }
             .page-body-holder {
                 display: flex;
                 justify-content: center;
             }
+            .about-me-one {
+                display: flex;
+                justify-content: left;
+            }
             .about-me {
                 font-size: 30px;
+                line-height: 1.5;
                 color: white;
                 text-shadow: 3px 3px 3px black;
-                width: 50%;
+                width: 60%;
+                text-align: justify;
             }
             img {
                 height: 400px;
@@ -78,7 +82,7 @@
             }
             .image-holder {
                 display: flex;
-                justify-content: center;
+                justify-content: right;
             }
             figcaption {
                 font-size: 25px;
@@ -127,16 +131,18 @@
         </ul>
         <div class="page-body-holder">
             <div class="page-body">
-                <div class="about-me">
-                    <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.</p>
-                    <p>Onak, stvarno super.</p>
-                    <p>Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
-                </div>
-                <div class="image-holder">
-                    <figure>
-                        <img src="images/picofmeriding.jpg" height="35%">
-                        <figcaption><em>Slika di jašem</em></figcaption>
-                    </figure>
+                <div class="about-me-one">
+                    <div class="about-me">
+                        <p>Zovem se Debora, bavim se programiranjem i konjima. Oboje mi ide super.<br>
+                    Onak, stvarno super.<br>
+                    Zbilja, pogledaj samo ovu stranicu. I sliku di jasem. I rest my case.</p>
+                    </div>
+                    <div class="image-holder">
+                        <figure>
+                            <img src="images/picofmeriding.jpg" height="35%">
+                            <figcaption><em>Slika di jašem</em></figcaption>
+                        </figure>
+                    </div>
                 </div>
                 <div class="link-holder">  
                     <a class="link-for-back" href="Index.html">Nazad</a>
